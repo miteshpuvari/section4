@@ -7,9 +7,12 @@ import StartGameScreen from './Screen/StartGameScreen';
 import GameScreen from './Screen/GameScreen';
 import { useState } from 'react';
 
+
 export default function App() {
 
   const [userNumber, setUserNumber] = useState();
+
+  const  [] = useState();
 
   const startGameHandler = (selectedNumber) => {
     setUserNumber(selectedNumber)
